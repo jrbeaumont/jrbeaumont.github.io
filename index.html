@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="home">
+
+
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p> HELLO </p>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p>I am a PhD student at Newcastle University. My research focus is design methodology and automation for asynchronous circuits.</p>
+
+  <p>Currently, I am working on a tool to ease the design of asynchronous circuits, called <em>concepts</em>. This is open source, and available at <A HREF="https://github.com/tuura/
+  concepts/">github.com/tuura/concepts/</A>. A manual is included with the tool, and is also available in pdf format <A HREF="https://jrbeaumont.github.io/concepts-manual/manual.pdf">
+  here</A></p>
+
+  <p>There is also a blog available for concepts, discussing how they work, what concepts are available and how it can help with the design process. This is hosted at <A HREF="https://
+  jrbeaumont.github.io/concepts-blog/">jrbeaumont.github.io/concepts-blog/</A></p>
+
+  <p>As an undergaduate, I acheived a MEng in Electronic and Computer Engineering from Newcastle University. During this time I learned much about both hardware, software and the
+  interaction between them, such as real-time and embedded systems, and microprocessor systems. Throughout this time, I learned programming skills for both writing software, and for programming devices.</p>
+
+  <p>I have knowledge of several programming languages.</p>
+
+  <p>I am proficcient in: </p>
+
+  <ul>
+  <li>Java</li>
+  <li>C</li>
+  <li>C++</li>
+  </ul>
+
+  <p>Other languages I am familiar with are:</p>
+
+  <ul>
+  <li>Haskell</li>
+  <li>Assembly language (68k)</li>
+</ul>
+
+</div>
