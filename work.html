@@ -1,0 +1,78 @@
+---
+layout: default
+title: "Work"
+permalink: /work
+---
+
+<div class="work">
+
+<p>
+  I work as a <B>Research Associate</B> at <B>Imperial College London</B>,
+  working on the <A HREF="https://poets-project.org/">POETS project</A>. POETS
+  is a novel parallel computing architecture, featuring many small
+  hyperthreaded cores embedded in a parallel hardware communications
+  infrastructure, and a new programming model to take advantage of this. This
+  architecture provides fast communication capabilities between threads,
+  and is highly scalable.
+</p>
+
+<p>
+  My role consists of:
+  <ul>
+    <li>
+      <B>Developing POETS applications for real-world examples</B> in multiple
+      research fields, to make use of it's novel capabilities, and test it to
+      its full extent. A large scale parallel architecture can have
+      synchronisation problems, and I develop applications to use both
+      synchronous and asynchronous algorithms, as either can be beneficial
+      depending on the application.
+    </li>
+
+    <li>
+      <B>Developing and maintaining tools for simulating, debugging and
+      profiling the POETS platform</B>. These x86 tools are often parallel,
+      and provide key insights to the inner-workings of the hardware and
+      applications, which is difficult with this unconventional
+      architecture.
+    </li>
+  </ul>
+
+  My most important work for POETS has been the development of a <B>Dissipative
+  Particle Dynamics (DPD) simulator</B>, as well as analytical and
+  visualisation tools for this. DPD is a form of <B>molecular dynamics</B>, which
+  abstracts away some more complex details of the molecules or particles under
+  simulation, and simply looks at the interaction of them as polymers, and
+  allows simulations to be run and detail behaviours between large numbers of
+  particles in a shorter length of time compared with molecular dynamics.
+</p>
+
+<p>
+  Below is a GIF of a POETS DPD simulation where vesicles self-assemble in a 100 x 100 x 100 volume.
+</p>
+
+<p class="aligncenter">
+  <img src="images/100-100-100-vesicle-1m-timesteps.gif" alt="Vesicle self-assembly" height="500">
+</p>
+
+{% include_relative /known-languages.html %}
+
+<p>
+  Please visit my
+  <A href="https://scholar.google.com/citations?user=4D5j4x0AAAAJ&hl=en">
+     Google Scholar profile
+  </A>
+  for a list of my published papers from during and after my PhD.
+</p>
+
+<p>
+  More information can be found in my <a href="{{ site.baseurl }}/cv">CV</a>,
+  which can be downloaded.
+</p>
+
+</div>
+
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
